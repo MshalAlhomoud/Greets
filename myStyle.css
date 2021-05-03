@@ -136,7 +136,7 @@ body{
     background-color: skyblue;
 }
 
-.watchedmovies ul li, .previouswatched ul li, .disney ul li{
+.main-container ul li, .previouswatched ul li, .disney ul li, .okkids ul li,.chicagopd ul li{
     padding: 12px 10px;
     color: white;
     background-color: dimgray;
@@ -145,16 +145,16 @@ body{
     display: inline-flex;
 }
 
-.watchedmovies ul h2, .previouswatched ul h2, .disney ul h2{
+.watchedmovies ul h2, .previouswatched ul h2, .disney ul h2, .okkids ul h2,.chicagopd ul h2{
     text-align: center;
 }
 
-.disney a,.watchedmovies a, .previouswatched a{
+.disney a,.watchedmovies a, .previouswatched a, .okkids a,.chicagopd a{
     color: white;
     text-decoration: none;
 }
 
-.disney ul li:hover, .watchedmovies ul li:hover, .previouswatched ul li:hover{
+.disney ul li:hover, .watchedmovies ul li:hover, .previouswatched ul li:hover, .okkids ul li:hover,.chicagopd ul li:hover{
     transition: 0.5s;
     background-color:gray ;
 }
