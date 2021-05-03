@@ -158,3 +158,22 @@ body{
     transition: 0.5s;
     background-color:gray ;
 }
+
+.games{
+    display: inline-flex;
+}
+
+.games ul{
+    display:flex;
+    flex-direction: column;
+}
+
+.games ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.games ul li:hover{
+    transition: 0.5s;
+    background-color:gray ;
+}
