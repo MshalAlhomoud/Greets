@@ -20,21 +20,11 @@ body{
 
 .logo img{
     width: 200px;
-    /* position: relative;
-    left: 0%;
-    opacity: 0.8; */
 }
 
 .links, .social{
     margin: 9px;
 }
-
-/* .notes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
 
 .notes label{
     font-size: 1.5em;
@@ -68,6 +58,18 @@ body{
 
 .mainlinks h4{
     color: lightgray;
+}
+
+.showinfo span{
+    display: block;
+    padding: 12px 10px;
+    /* background-color: gainsboro; */
+    margin: 3px;
+    cursor: text;
+}
+
+.showinfo span:hover{
+    background-color: gainsboro;
 }
 
 .main-container{
