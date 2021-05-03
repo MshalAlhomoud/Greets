@@ -149,6 +149,11 @@ body{
     text-align: center;
 }
 
+.disney a{
+    color: white;
+    text-decoration: none;
+}
+
 .disney ul li:hover{
     transition: 0.5s;
     background-color:gray ;
