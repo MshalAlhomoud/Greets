@@ -149,12 +149,12 @@ body{
     text-align: center;
 }
 
-.disney a{
+.disney a,.watchedmovies a, .previouswatched a{
     color: white;
     text-decoration: none;
 }
 
-.disney ul li:hover{
+.disney ul li:hover, .watchedmovies ul li:hover, .previouswatched ul li:hover{
     transition: 0.5s;
     background-color:gray ;
 }
