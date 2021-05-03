@@ -148,3 +148,8 @@ body{
 .watchedmovies ul h2, .previouswatched ul h2, .disney ul h2{
     text-align: center;
 }
+
+.disney ul li:hover{
+    transition: 0.5s;
+    background-color:gray ;
+}
