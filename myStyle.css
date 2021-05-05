@@ -179,3 +179,21 @@ body{
     transition: 0.5s;
     background-color:gray ;
 }
+
+.Previously{
+    display: inline-flex;
+}
+
+.nba2-5 ul li, .nba3-5 ul li, .ufc ul li{
+    display: block;
+}
+
+.nba2-5 ul li a, .nba3-5 ul li a, .ufc ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nba2-5 ul li:hover, .nba3-5 ul li:hover,.ufc ul li:hover{
+    transition: 0.5s;
+    background-color:gray ;
+}
