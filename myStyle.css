@@ -110,12 +110,12 @@ body{
     color:black;
 }
 
-.travelink, .sayslink, .musiclink{
+.travelink, .sayslink, .musiclink, .homelink{
     padding: 15px 12px;
     font-size:21px;
 }
 
-.travelink:hover, .sayslink:hover, .musiclink:hover{
+.travelink:hover, .sayslink:hover, .musiclink:hover, .homelink:hover{
     transition: 0.5s;
     background-color: lightgray;
 }
