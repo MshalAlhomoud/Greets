@@ -198,11 +198,10 @@ body{
     background-color:gray ;
 }
 
-@media (max-width: 480px) {
-    .main-container{
-        width: 90%;
-    }
+@media (max-width: 480px) {    
     .main-sde{
-        width:100%;
+        position:absolute;
+        width:400px;
+        height:100%;
     }
 }
