@@ -204,4 +204,8 @@ body{
         width:400px;
         height:100%;
     }
+    
+    .notes input{    
+    width: 150px;
+    }
 }
