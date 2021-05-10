@@ -198,7 +198,7 @@ body{
     background-color:gray ;
 }
 
-@media (max-width: 480px) {
+@media (device-width: 320px) {
     .main-container{
         width: 90%;
     }
