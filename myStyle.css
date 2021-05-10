@@ -138,25 +138,50 @@ body{
     background-color: skyblue;
 }
 
-.main-container ul li, .previouswatched ul li, .disney ul li, .okkids ul li,.chicagopd ul li{
+.main-container ul li, .previouswatched ul li, .disney ul li, .okkids ul li{
     padding: 12px 10px;
     color: white;
     background-color: dimgray;
-    /* font-family: fantasy; */
     margin: 5px;
     display: inline-flex;
 }
 
-.watchedmovies ul h2, .previouswatched ul h2, .disney ul h2, .okkids ul h2,.chicagopd ul h2{
+
+/*Start for shows*/
+.trueblood ul li,.chicagopd ul li, .tvd ul li, .vikings ul li, .GOT ul li, .HTGAWM ul li, .supernatural ul li{
+    padding: 12px 10px;
+    color: white;
+    background-color: dimgray;
+    margin: 5px;
+    display: inline-flex;
+}
+
+.trueblood ul h2,.chicagopd ul h2, .tvd ul h2, .vikings ul h2, .GOT ul h2, .HTGAWM ul h2, .supernatural ul h2{
     text-align: center;
 }
 
-.disney a,.watchedmovies a, .previouswatched a, .okkids a,.chicagopd a{
+.trueblood a,.chicagopd a, .tvd a, .vikings a, .GOT a,.HTGAWM a, .supernatural a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.trueblood ul li:hover,.chicagopd ul li:hover, .tvd ul li:hover, .vikings ul li:hover, .GOT ul li:hover, .HTGAWM ul li:hover,.supernatural ul li:hover{
+    transition: 0.5s;
+    background-color:gray ;
+}
+/*End of shows*/
+
+
+.watchedmovies ul h2, .previouswatched ul h2, .disney ul h2, .okkids ul h2{
+    text-align: center;
+}
+
+.disney a,.watchedmovies a, .previouswatched a, .okkids a{
     color: white;
     text-decoration: none;
 }
 
-.disney ul li:hover, .watchedmovies ul li:hover, .previouswatched ul li:hover, .okkids ul li:hover,.chicagopd ul li:hover{
+.disney ul li:hover, .watchedmovies ul li:hover, .previouswatched ul li:hover, .okkids ul li:hover{
     transition: 0.5s;
     background-color:gray ;
 }
