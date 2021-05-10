@@ -198,8 +198,11 @@ body{
     background-color:gray ;
 }
 
-@media (device-width: 320px) {
+@media (max-width: 480px) {
     .main-container{
         width: 90%;
+    }
+    .main-sde{
+        width:100%;
     }
 }
