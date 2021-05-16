@@ -1,240 +1,301 @@
 html{
-   scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;
+ }
+ 
+ body{
+     box-sizing: border-box;
+     margin: 0%;
+     display: flex;
+ }
+ 
+ .main-side{
+     height: 100%;
+     width: 400px;
+     overflow: hidden;
+     position: relative;
+ }
+ 
+ .logo{
+     background-color: coral;
+     width: 100%;
+     height: 85px;
+     text-align: center;
+ }
+ 
+ .logo img{
+     width: 200px;
+ }
+ 
+ .links, .social{
+     margin: 9px;
+ }
+ 
+ .notes label{
+     font-size: 1.5em;
+     font-weight: bold;
+     margin: 5px;
+     color: lightgray;
+ }
+ 
+ .notes input{
+     margin: 5px;
+     width: 250px;
+     height: 25px;
+     margin-bottom: 5px;
+     outline: none;
+     background-color: rgb(218, 218, 218);
+     border-radius: 15px;
+     border-color: rgb(218, 218, 218);
+ }
+ 
+ .mainlinks a{
+     text-decoration: none;
+     color: black;
+     padding: 12px 10px;
+     display: block;
+ }
+ 
+ .mainlinks a:hover{
+     transition: 0.4s;
+     background-color: lightgray;
+ }
+ 
+ .mainlinks h4{
+     color: lightgray;
+ }
+ 
+ .showinfo span{
+     display: block;
+     padding: 12px 10px;
+     /* background-color: gainsboro; */
+     margin: 3px;
+     cursor: text;
+ }
+ 
+ .showinfo span:hover{
+     background-color: gainsboro;
+ }
 
-body{
-    box-sizing: border-box;
-    margin: 0%;
-    display: flex;
-}
+ #myBtn{
+     position: fixed;
+     right: 0%;
+     top: 50%;
+     bottom: 50%;
+     cursor: pointer;  
+     width:55px;
+     height:30px; 
+     background-color: transparent;
+     text-align: center;
+     font-size: 20px;
+     text-transform: uppercase;
+ }
+ 
+ .main-container{
+     background-color: rgb(243, 241, 241);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 100%;
+ }
+ 
+ .greetings p{
+     font-size: 2em;
+ }
+ 
+ .lineempty{
+     background-color: orange;
+     width: 100%;
+     height: 1px;
+     border-radius: 50%;
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+ 
+ .main-links{
+     display: flex;
+     margin: 15px;
+ }
+ 
+ .main-links img{
+     width: 150px;
+     height: 150px;
+     margin: 15px;
+ }
+ 
+ .main-links a{
+     text-decoration: none;
+     color:black;
+ }
+ 
+ .travelink, .sayslink, .musiclink, .homelink{
+     padding: 15px 12px;
+     font-size:21px;
+ }
+ 
+ .travelink:hover, .sayslink:hover, .musiclink:hover, .homelink:hover{
+     transition: 0.5s;
+     background-color: lightgray;
+ }
+ 
+ .movies h1{
+     text-align: center;
+     font-size: 1.8em;
+ }
+ 
+ .movies a{
+     display: inline-flex;
+     color: royalblue;
+     padding: 12px 10px;
+     text-decoration: none;
+     font-size: 19px;
+ }
+ 
+ .movies a:hover{
+     transition: 0.5s;
+     background-color: skyblue;
+ }
+ 
+ .main-container ul li, .previouswatched ul li, .disney ul li, .okkids ul li{
+     padding: 12px 10px;
+     color: white;
+     background-color: dimgray;
+     margin: 5px;
+     display: inline-flex;
+ }
+ 
+ 
+ /*Start for shows #1*/
+ .trueblood ul li, .tvd ul li, .vikings ul li, .GOT ul li, .HTGAWM ul li, .supernatural ul li, .station19 ul li{
+     padding: 12px 10px;
+     color: white;
+     background-color: dimgray;
+     margin: 5px;
+     display: inline-flex;
+ }
+ 
+ .trueblood ul h2, .tvd ul h2, .vikings ul h2, .GOT ul h2, .HTGAWM ul h2, .supernatural ul h2, .station19 ul h2{
+     text-align: center;
+ }
+ 
+ .trueblood a, .tvd a, .vikings a, .GOT a,.HTGAWM a, .supernatural a, .station19 a{
+     color: #fff;
+     text-decoration: none;
+ }
+ 
+ .trueblood ul li:hover, .tvd ul li:hover, .vikings ul li:hover, .GOT ul li:hover, .HTGAWM ul li:hover,.supernatural ul li:hover, .station19 ul li:hover{
+     transition: 0.5s;
+     background-color:gray ;
+ }
+ /*End of shows #1*/
 
-.main-side{
-    height: 100%;
-    width: 400px;
-    overflow: hidden;
-    position: relative;
-}
-
-.logo{
-    background-color: coral;
-    width: 100%;
-    height: 85px;
-    text-align: center;
-}
-
-.logo img{
-    width: 200px;
-}
-
-.links, .social{
-    margin: 9px;
-}
-
-.notes label{
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 5px;
-    color: lightgray;
-}
-
-.notes input{
-    margin: 5px;
-    width: 250px;
-    height: 25px;
-    margin-bottom: 5px;
-    outline: none;
-    background-color: rgb(218, 218, 218);
-    border-radius: 15px;
-    border-color: rgb(218, 218, 218);
-}
-
-.mainlinks a{
-    text-decoration: none;
-    color: black;
+ /*Start of shows #2*/
+.sherlock ul li, .homeland ul li, .five0 ul li, .houseofcards ul li, .originals ul li, .legacies ul li{
     padding: 12px 10px;
-    display: block;
+     color: white;
+     background-color: dimgray;
+     margin: 5px;
+     display: inline-flex;
 }
 
-.mainlinks a:hover{
-    transition: 0.4s;
-    background-color: lightgray;
-}
-
-.mainlinks h4{
-    color: lightgray;
-}
-
-.showinfo span{
-    display: block;
-    padding: 12px 10px;
-    /* background-color: gainsboro; */
-    margin: 3px;
-    cursor: text;
-}
-
-.showinfo span:hover{
-    background-color: gainsboro;
-}
-
-.main-container{
-    background-color: rgb(243, 241, 241);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-.greetings p{
-    font-size: 2em;
-}
-
-.lineempty{
-    background-color: orange;
-    width: 100%;
-    height: 1px;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.main-links{
-    display: flex;
-    margin: 15px;
-}
-
-.main-links img{
-    width: 150px;
-    height: 150px;
-    margin: 15px;
-}
-
-.main-links a{
-    text-decoration: none;
-    color:black;
-}
-
-.travelink, .sayslink, .musiclink, .homelink{
-    padding: 15px 12px;
-    font-size:21px;
-}
-
-.travelink:hover, .sayslink:hover, .musiclink:hover, .homelink:hover{
+.sherlock ul li:hover, .homeland ul li:hover, .five0 ul li:hover, .houseofcards ul li:hover, .originals ul li:hover, .legacies ul li:hover{
     transition: 0.5s;
-    background-color: lightgray;
+     background-color:gray ;
 }
 
-.movies h1{
-    text-align: center;
-    font-size: 1.8em;
+.sherlock ul h2, .homeland ul h2, .five0 ul h2, .houseofcards ul h2, .originals ul h2, .legacies ul h2{
+    text-align:center;
 }
 
-.movies a{
-    display: inline-flex;
-    color: royalblue;
-    padding: 12px 10px;
+.sherlock a, .homeland a, .five0 a, .houseofcards a, .originals a, .legacies a{
+    color:#fff;
     text-decoration: none;
-    font-size: 19px;
 }
+ /*End of shows #2*/
 
-.movies a:hover{
-    transition: 0.5s;
-    background-color: skyblue;
-}
-
-.main-container ul li, .previouswatched ul li, .disney ul li, .okkids ul li{
+ /*Start of chicago shows*/
+ .chicagopd ul li, .chicagofire ul li, .chicagomed ul li, .chicagojustice ul li{
     padding: 12px 10px;
     color: white;
     background-color: dimgray;
     margin: 5px;
     display: inline-flex;
-}
+ }
 
+ .chicagopd ul li:hover, .chicagofire ul li:hover, .chicagomed ul li:hover, .chicagojustice ul li:hover{
+    transition: 0.5s;
+    background-color:gray ;
+ }
 
-/*Start for shows*/
-.trueblood ul li,.chicagopd ul li, .tvd ul li, .vikings ul li, .GOT ul li, .HTGAWM ul li, .supernatural ul li{
-    padding: 12px 10px;
-    color: white;
-    background-color: dimgray;
-    margin: 5px;
-    display: inline-flex;
-}
+ .chicagopd ul h2, .chicagofire ul h2,.chicagomed ul h2,.chicagojustice ul h2{
+     text-align: center;
+ }
 
-.trueblood ul h2,.chicagopd ul h2, .tvd ul h2, .vikings ul h2, .GOT ul h2, .HTGAWM ul h2, .supernatural ul h2{
-    text-align: center;
-}
-
-.trueblood a,.chicagopd a, .tvd a, .vikings a, .GOT a,.HTGAWM a, .supernatural a{
+ .chicagopd a, .chicagofire a, .chicagomed a, .chicagojustice a{
     color: #fff;
     text-decoration: none;
-}
-
-.trueblood ul li:hover,.chicagopd ul li:hover, .tvd ul li:hover, .vikings ul li:hover, .GOT ul li:hover, .HTGAWM ul li:hover,.supernatural ul li:hover{
-    transition: 0.5s;
-    background-color:gray ;
-}
-/*End of shows*/
-
-
-.watchedmovies ul h2, .previouswatched ul h2, .disney ul h2, .okkids ul h2{
-    text-align: center;
-}
-
-.disney a,.watchedmovies a, .previouswatched a, .okkids a{
-    color: white;
-    text-decoration: none;
-}
-
-.disney ul li:hover, .watchedmovies ul li:hover, .previouswatched ul li:hover, .okkids ul li:hover{
-    transition: 0.5s;
-    background-color:gray ;
-}
-
-.games{
-    display: inline-flex;
-}
-
-.games ul{
-    display:flex;
-    flex-direction: column;
-}
-
-.games ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-.games ul li:hover{
-    transition: 0.5s;
-    background-color:gray ;
-}
-
-.Previously{
-    display: inline-flex;
-}
-
-.nba2-5 ul li, .nba3-5 ul li, .ufc ul li{
-    display: block;
-}
-
-.nba2-5 ul li a, .nba3-5 ul li a, .ufc ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-.nba2-5 ul li:hover, .nba3-5 ul li:hover,.ufc ul li:hover{
-    transition: 0.5s;
-    background-color:gray ;
-}
-
-@media screen and (max-width: 480px) {    
-    .main-sde{
-        position:absolute;
-        width:400px;
-        height:100%;
-    }
-    
-    .notes input{    
-         width: 100px;
-    }
-}
+ }
+ /*End of chicago shows*/
+ 
+ .watchedmovies ul h2, .previouswatched ul h2, .disney ul h2, .okkids ul h2{
+     text-align: center;
+ }
+ 
+ .disney a,.watchedmovies a, .previouswatched a, .okkids a{
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .disney ul li:hover, .watchedmovies ul li:hover, .previouswatched ul li:hover, .okkids ul li:hover{
+     transition: 0.5s;
+     background-color:gray ;
+ }
+ 
+ .games{
+     display: inline-flex;
+ }
+ 
+ .games ul{
+     display:flex;
+     flex-direction: column;
+ }
+ 
+ .games ul li a{
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .games ul li:hover{
+     transition: 0.5s;
+     background-color:gray ;
+ }
+ 
+ .Previously{
+     display: inline-flex;
+ }
+ 
+ .nba2-5 ul li, .nba3-5 ul li, .ufc ul li{
+     display: block;
+ }
+ 
+ .nba2-5 ul li a, .nba3-5 ul li a, .ufc ul li a{
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .nba2-5 ul li:hover, .nba3-5 ul li:hover,.ufc ul li:hover{
+     transition: 0.5s;
+     background-color:gray ;
+ }
+ 
+ @media screen and (max-width: 480px) {    
+     .main-sde{
+         position:absolute;
+         width:400px;
+         height:100%;
+     }
+     
+     .notes input{    
+          width: 100px;
+     }
+ } 
