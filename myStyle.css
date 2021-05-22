@@ -109,7 +109,7 @@ body{
     width: 100%;    
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .leftside{
     height: 100vh;
     overflow:scroll;
