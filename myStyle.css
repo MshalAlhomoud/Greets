@@ -100,15 +100,6 @@ body{
 .movies-action:hover .action-ul,.movies-sports:hover .sports-ul,.movies-crime:hover .crime-ul,.movies-thriller:hover 
 .thriller-ul,.movies-comdey:hover .comdey-ul,.movies-drama:hover .drama-ul{display:contents;}
 
-.main-body{
-    width: 100%;
-}
-
-.main-body img{
-    height: 100%;
-    width: 100%;    
-}
-
 @media only screen and (max-width: 900px) {
     .leftside{
     height: 100vh;
