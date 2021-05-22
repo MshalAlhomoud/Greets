@@ -110,7 +110,14 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-  .main-body img{
-    height: auto;   
+    .leftside{
+    height: 100vh;
+    overflow:scroll;
+    }
+    .sportlinks-ul,.code-needs-ul,.websites-ul,.social-ul,.movies-ul{
+        display:block;
+    }
+    .action-ul,.sports-ul,.crime-ul,.thriller-ul,.comdey-ul,.drama-ul{
+        display:block;
     }
 }
